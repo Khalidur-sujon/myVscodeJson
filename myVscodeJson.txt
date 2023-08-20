@@ -1,0 +1,143 @@
+{
+	"terminal.integrated.commandsToSkipShell": [
+		"\"window.titleBarStyle\": \"custom\","
+	],
+	"window.dialogStyle": "custom",
+	"window.titleBarStyle": "custom",
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	// "settingsSync.ignoredSettings": ["-python.venvPath"],
+	"terminal.integrated.inheritEnv": false,
+	"editor.quickSuggestionsDelay": 0,
+	"editor.linkedEditing": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.preferredDarkColorTheme": "Default Light+",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"files.associations": {
+		"**/templates/*.html": "django-html",
+		"**/templates/*": "django-txt",
+		"*.html": "html",
+		"*.css": "tailwindcss"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"css.validate": false,
+	"json.schemas": [],
+	"vsicons.dontShowNewVersionMessage": true,
+	"javascript.format.enable": false,
+	"extensions.supportUntrustedWorkspaces": {},
+	"django.snippets.exclude": ["cms", "wagtail"],
+	"html.format.contentUnformatted": "",
+	"html.format.indentHandlebars": true,
+	"html.format.templating": true,
+	"html.format.extraLiners": "",
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"editor.inlineSuggest.enabled": true,
+	"tailwindCSS.emmetCompletions": true,
+	"editor.wordWrap": "on",
+	"editor.minimap.enabled": false,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"name": "italic font",
+				"scope": [
+					"comment",
+					"keyword",
+					"storage",
+					"keyword.control",
+					"keyword.control.from",
+					"keyword.control.flow",
+					"keyword.operator.new",
+					"keyword.control.import",
+					"keyword.control.export",
+					"keyword.control.default",
+					"keyword.control.trycatch",
+					"keyword.control.conditional",
+					"storage.type",
+					"storage.type.class",
+					"storage.modifier.tsx",
+					"storage.type.function",
+					"storage.modifier.async",
+					"variable.language",
+					"variable.language.this",
+					"variable.language.super",
+					"meta.class",
+					"meta.var.expr",
+					"constant.language.null",
+					"support.type.primitive",
+					"entity.name.method.js",
+					"entity.other.attribute-name",
+					"punctuation.definition.comment",
+					"punctuation.definition.arrow",
+					"text.html.basic entity.other.attribute-name",
+					"tag.decorator.js entity.name.tag.js",
+					"tag.decorator.js punctuation.definition.tag.js",
+					"source.js constant.other.object.key.js string.unquoted.label.js"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			}
+		]
+	},
+	"editor.semanticHighlighting.enabled": true,
+	"editor.snippetSuggestions": "top",
+	"workbench.colorTheme": "Learn with Sumit - Shades of Grey",
+	"liveServer.settings.CustomBrowser": "chrome",
+	"files.autoSaveDelay": 5,
+	"liveServer.settings.wait": 2,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.port": 0,
+	"liveServer.settings.fullReload": true,
+
+	// Controls the font family.
+	"editor.fontFamily": "Fira Code, Operator Mono",
+	// Enables font ligatures
+	"editor.fontLigatures": true,
+	"editor.cursorBlinking": "expand",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"liveServer.settings.donotVerifyTags": true,
+	"todohighlight.isEnable": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+
+	// terminal customization
+	"workbench.colorCustomizations": {
+		"terminal.background": "#1D2021",
+		"terminal.foreground": "#A89984",
+		"terminalCursor.background": "#A89984",
+		"terminalCursor.foreground": "#A89984",
+		"terminal.ansiBlack": "#1D2021",
+		"terminal.ansiBlue": "#0D6678",
+		"terminal.ansiBrightBlack": "#665C54",
+		"terminal.ansiBrightBlue": "#0D6678",
+		"terminal.ansiBrightCyan": "#8BA59B",
+		"terminal.ansiBrightGreen": "#95C085",
+		"terminal.ansiBrightMagenta": "#8F4673",
+		"terminal.ansiBrightRed": "#FB543F",
+		"terminal.ansiBrightWhite": "#FDF4C1",
+		"terminal.ansiBrightYellow": "#FAC03B",
+		"terminal.ansiCyan": "#8BA59B",
+		"terminal.ansiGreen": "#95C085",
+		"terminal.ansiMagenta": "#8F4673",
+		"terminal.ansiRed": "#FB543F",
+		"terminal.ansiWhite": "#A89984",
+		"terminal.ansiYellow": "#FAC03B"
+	},
+	"editor.bracketPairColorization.enabled": true,
+	"tailwindCSS.includeLanguages": {
+		"plaintext": "html"
+	},
+	"javascript.suggest.includeCompletionsForImportStatements": false
+}
+
